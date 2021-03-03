@@ -1,2 +1,2 @@
 # tuya-iot
-这是一个iot智能宠物投喂解决方案
+* This project is developed using Tuya SDK, which enables you to quickly develop branded apps connecting and controlling smart scenarios of many devices.For more information, please check Tuya Developer Website.
