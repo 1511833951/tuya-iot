@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\..\..\..\..\mcu_sdk_wuzhou_anminal_20210314\mcu_sdk -I ..\HARDWARE\HC-SR04 -I ..\HARDWARE\TIMER
+-I.\RTE\_USART
+-ID:\ARM\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-ID:\ARM\ARM\CMSIS\Include
+-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d "..\HARDWARE\TIMER\timer.c"

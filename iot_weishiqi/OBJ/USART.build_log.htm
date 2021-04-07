@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1511833951@qq.com, 23, LIC=HN0AE-5667C-TGD7T-R773D-W7ZGV-6QR1C
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  D:\ARM\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+D:\Desktop\NBIOT\STM32F103ZE核心板（新版）-1807\3，标准例程-库函数版本\例3 串口通信\USER\USART.uvprojx
+Project File Date:  04/04/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\ARM\ARM\ARMCC\Bin'
+Build target 'USART'
+compiling main.c...
+..\HARDWARE\LED\led.h(17): warning:  #1295-D: Deprecated declaration Motor_Init - give arg types
+  void Motor_Init();
+..\HARDWARE\OLED\oled.h(46): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\OLED\bmp.h(140): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(24): warning:  #1295-D: Deprecated declaration T_Adc_Init - give arg types
+  void T_Adc_Init();
+main.c(27): warning:  #1295-D: Deprecated declaration OLED_SHOW - give arg types
+  void OLED_SHOW();
+main.c(28): warning:  #1295-D: Deprecated declaration read_allnum - give arg types
+  void read_allnum();
+main.c(29): warning:  #1295-D: Deprecated declaration Get_Temprate - give arg types
+  short Get_Temprate();
+main.c(37): warning:  #1295-D: Deprecated declaration car_hongwai - give arg types
+   int car_hongwai();
+main.c(54): warning:  #223-D: function "Hcsr04Init" declared implicitly
+    Hcsr04Init();		 //初始化与按键连接的硬件接口
+main.c(56): warning:  #223-D: function "sr04_value" declared implicitly
+  	  sr04_value();//超声波值
+main.c(117): warning:  #177-D: variable "value"  was declared but never referenced
+  	char value;
+main.c: 11 warnings, 0 errors
+linking...
+Program Size: Code=19450 RO-data=6606 RW-data=7820 ZI-data=3172  
+FromELF: creating hex file...
+"..\OBJ\USART.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil.STM32F1xx_DFP.1.0.5
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_USART
+  D:\ARM\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
